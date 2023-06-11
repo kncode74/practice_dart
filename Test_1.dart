@@ -18,23 +18,25 @@ void main() {
 
   List<int> data3 = [1, 44, 5, 89, 100, 1, 44];
   //
-  int maxnumber = find_the_largest_number_position(data3);
-  print(maxnumber);
-  //
   int numberAll = countNumbersDivisibleBy3Or5(1, 20);
   print("countNumbersDivisibleBy3Or5:$numberAll");
+  //
+  List<String> a = sortDataByAge(data1);
+  print(a);
+  //
+  List<String> name = nameStartA(data1);
+  print(name);
+  
+  //
+  int maxnumber = find_the_largest_number_position(data3);
+  print(maxnumber);
 
   //
   List<int> merge1 = mergeList(data2);
   print(merge1);
 
-  //
-  List<String> name = nameStartA(data1);
-  print(name);
 
-  //
-  List<String> a = sortDataByAge(data1);
-  print(a);
+  
 }
 
 //ข้อที่ 1
